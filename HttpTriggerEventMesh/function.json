@@ -1,0 +1,30 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "EventMesh",
+      "direction": "out",
+      "name": "EventMeshMessage",
+      "EventMeshTokenEndpoint": "%EventMeshTokenEndpoint%",
+      "EventMeshClientId": "%EventMeshClientId%",
+      "EventMeshClientSecret": "%EventMeshClientSecret%",
+      "EventMeshGrantType": "%EventMeshGrantType%",
+      "EventMeshRestBaseEndpoint": "%EventMeshRestBaseEndpoint%",
+      "EventMeshQueueName": "%EventMeshQueueName%"
+    }
+  ],
+  "scriptFile": "../dist/HttpTriggerEventMesh/index.js"
+}

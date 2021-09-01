@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "EventMeshTokenEndpoint": "<YOUR EVENT MESH TOKEN ENDPOINT>",
+    "EventMeshClientId": "<YOUR EVENT MESH CLIENT ID>",
+    "EventMeshClientSecret": "<YOUR EVENT MESH CLIENT SECRET>",
+    "EventMeshGrantType": "client_credentials",
+    "EventMeshRestBaseEndpoint": "<YOUR EVENT MESH REST ENDPOINT>",
+    "EventMeshQueueName": "<YOUR EVENT MESH QUEUE NAME>"
+  }
+}

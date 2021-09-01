@@ -1,0 +1,7 @@
+### Sample Post Reuqest
+POST http://localhost:7071/api/HttpTriggerEventMesh
+Content-Type: application/json
+
+{
+    "message": "Sample message for EventMesh"
+}
